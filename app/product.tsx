@@ -1,6 +1,5 @@
-// TODO: Workaround for the issue with the route loader not being able to access the params
-// https://github.com/remix-run/react-router/issues/12841
-import type { Route } from '.react-router/types/app/+types/product';
+// https://github.com/remix-run/react-router/issues/12841 - it hapens with pnpm
+import type { Route } from "./+types/product";
 
 export async function loader({ params }: Route.LoaderArgs) {
     let product = { name: "Mac Mini m4", pid: params.pid };
