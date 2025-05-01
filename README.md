@@ -21,7 +21,7 @@ A modern, production-ready template for building full-stack React applications u
 Install the dependencies:
 
 ```bash
-pnpm install
+npm install
 ```
 
 ### Development
@@ -29,7 +29,7 @@ pnpm install
 Start the development server with HMR:
 
 ```bash
-pnpm run dev
+npm run dev
 ```
 
 Your application will be available at `http://localhost:5173`.
@@ -39,7 +39,7 @@ Your application will be available at `http://localhost:5173`.
 Create a production build:
 
 ```bash
-pnpm run build
+npm run build
 ```
 
 ## Deployment
@@ -72,7 +72,7 @@ Make sure to deploy the output of `npm run build`
 
 ```
 ├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
+├── package-lock.json (or npm-lock.yaml, or bun.lockb)
 ├── build/
 │   ├── client/    # Static assets
 │   └── server/    # Server-side code
