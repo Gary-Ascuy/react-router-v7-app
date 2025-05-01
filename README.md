@@ -85,3 +85,7 @@ This template comes with [Tailwind CSS](https://tailwindcss.com/) already config
 ---
 
 Built with ❤️ using React Router.
+
+## References 
+
+- https://github.com/remix-run/react-router/issues/12841 

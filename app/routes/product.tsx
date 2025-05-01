@@ -1,5 +1,11 @@
-// https://github.com/remix-run/react-router/issues/12841 - it hapens with pnpm
 import type { Route } from "./+types/product";
+
+export function meta({ }: Route.MetaArgs) {
+    return [
+        { title: "Product Page" },
+        { name: "description", content: "Welcome to Product Page!" },
+    ];
+}
 
 export async function loader({ params }: Route.LoaderArgs) {
     let product = { name: "Mac Mini m4", pid: params.pid };
